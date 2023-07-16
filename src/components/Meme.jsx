@@ -1,12 +1,12 @@
 export default function Meme() {
     return (
-        <div className="meme">
-            <input className="meme--input" placeholder="type here"></input>
-            <input className="meme--input" placeholder="and here"></input>
-            <button className="meme--button" >
-                Get a new image🖼️
-            </button>
-            Meme
-        </div>
+        <main >
+            <form className="form">
+            <input className="form--input" type="text" placeholder="and here"></input>
+            <input className="form--input" type="text" placeholder="type here"></input>
+            <button className="form--button">Get a new image🖼️</button>
+            <img src="smth"></img>
+            </form>
+        </main>
     );
 }
